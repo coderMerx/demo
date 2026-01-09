@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Auto Bilevel Desktop Catalog View</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13ec5b",
+                        "background-light": "#f8fafc",
+                        "background-dark": "#0f172a",
+                        "medical-green": "#13ec5b",
+                    },
+                    fontFamily: {
+                        "sans": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "lg": "16px",
+                        "xl": "24px",
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply font-sans bg-background-light text-[#111813];
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="min-h-screen">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-2 cursor-pointer">
+<div class="size-10 bg-primary rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-white">medical_services</span>
+</div>
+<span class="text-xl font-bold tracking-tight">MedCatalog</span>
+</div>
+<div class="flex-1 max-w-xl mx-12">
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-primary">search</span>
+<input class="w-full h-11 pl-12 pr-4 bg-gray-50 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all" placeholder="Search respiratory devices, BiPAPs..." type="text"/>
+</div>
+</div>
+<nav class="flex items-center gap-8">
+<a class="text-sm font-semibold text-gray-900 border-b-2 border-primary" href="#">Products</a>
+<a class="text-sm font-semibold text-gray-500 hover:text-gray-900 transition-colors" href="#">About Us</a>
+<a class="text-sm font-semibold text-gray-500 hover:text-gray-900 transition-colors" href="#">Contact</a>
+<button class="flex items-center justify-center size-10 rounded-full bg-gray-50 hover:bg-gray-100 transition-colors">
+<span class="material-symbols-outlined text-gray-600">person</span>
+</button>
+</nav>
+</div>
+</header>
+<section class="relative h-[360px] w-full overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.2) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCaOVHAxbxm2Z8bfXsWrgB7GlFM-KTy3v1vHejkO8Pd59X394jC5w2bX2y5Xg833-kj0uXDnxVTLpLm9LjUVHbzOWMQ5pKI5Pd_25IrPwkkto5yL9HfS0Hr3kG6-MonOuGrwYajQ5aWLUqym8qKxP4d4jCCM7Nxn-rG3DBj-QGVvy9Hqjw342BENY8ERgWAyk_tb-AnvM-l7WquBbiOPmxuTkqtYxOSRFcG-dXX0T-nkPHWDYP19ctiJSqwAXm9dxZ_jdiuEYbpArE");'></div>
+<div class="relative max-w-7xl mx-auto px-6 h-full flex flex-col justify-center">
+<h1 class="text-5xl font-extrabold text-white mb-4 tracking-tight">Auto Bilevel Device</h1>
+<p class="text-xl text-white/90 max-w-xl leading-relaxed">Advanced Respiratory Support for Hospitals &amp; Clinics. Engineered for precision and patient comfort.</p>
+</div>
+</section>
+<div class="bg-white border-b border-gray-100 py-4">
+<div class="max-w-7xl mx-auto px-6 flex gap-6">
+<div class="flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-lg border border-primary/20">
+<span class="material-symbols-outlined text-primary">verified</span>
+<span class="text-sm font-bold text-gray-800 tracking-wide uppercase">Trusted Seller</span>
+</div>
+<div class="flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-lg border border-primary/20">
+<span class="material-symbols-outlined text-primary">shield</span>
+<span class="text-sm font-bold text-gray-800 tracking-wide uppercase">GST Verified</span>
+</div>
+</div>
+</div>
+<main class="max-w-7xl mx-auto px-6 py-12 flex flex-col gap-8 w-full">
+<div class="flex bg-white rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 overflow-hidden transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+<div class="w-1/4 bg-gray-50 flex items-center justify-center p-8 border-r border-gray-50">
+<div class="w-full aspect-square bg-contain bg-center bg-no-repeat" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAaqoV5BI6o62id0Mbj9qV0C4uunp2jvJfmNQvQwq45DIVauyCTlUW6GpJSWHGIMPN_e1Qd7My3mJoTi8QWL1lXVFX1d3hxd7nx4Bz2abWw-JGJhDmBtrMKpCF98xTm9O6ahYYEsnugYdzjFBk60quY_D40OB-vfIm7xWZoqH04Cb9EaNrusLz00y7Y0wavAJCNhfv0YhSygQPr7H-46mJkGwAi8zm3-XrKeKNJsZcmZDkHKB8hzpgAOuYFIiwMI6tA3TRui6Vpixs");'></div>
+</div>
+<div class="flex-1 p-8">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-bold uppercase tracking-wider border border-blue-100">
+<span class="material-symbols-outlined text-[16px]">apartment</span> ICU Grade
+                        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-bold uppercase tracking-wider border border-green-100">
+<span class="material-symbols-outlined text-[16px]">verified_user</span> 2 Years Warranty
+                        </span>
+</div>
+<h2 class="text-2xl font-bold text-gray-900 mb-6">RespiCare Pro V1 Auto-Bilevel</h2>
+<div class="grid grid-cols-2 gap-x-12 gap-y-4 max-w-lg">
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Pressure Mode</span>
+<span class="text-gray-800 font-medium">CPAP, S, T, S/T, Auto</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Pressure Range</span>
+<span class="text-gray-800 font-medium">4 - 25 cmH2O</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Weight</span>
+<span class="text-gray-800 font-medium">1.26 kg (Device only)</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Data Interface</span>
+<span class="text-gray-800 font-medium">SD Card / Bluetooth App</span>
+</div>
+</div>
+</div>
+<div class="w-64 p-8 border-l border-gray-50 bg-gray-50/50 flex flex-col justify-center gap-4">
+<button class="w-full py-3.5 bg-medical-green text-gray-900 font-bold rounded-lg shadow-md hover:brightness-105 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">mail</span>
+                        Send Inquiry
+                    </button>
+<button class="w-full py-3.5 border-2 border-medical-green text-gray-900 font-bold rounded-lg hover:bg-medical-green/5 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">call</span>
+                        Request Call Back
+                    </button>
+<p class="text-[11px] text-gray-400 text-center mt-2 leading-tight">Usually responds in under 1 hour</p>
+</div>
+</div>
+<div class="flex bg-white rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 overflow-hidden transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+<div class="w-1/4 bg-gray-50 flex items-center justify-center p-8 border-r border-gray-50">
+<div class="w-full aspect-square bg-contain bg-center bg-no-repeat" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBPFlenZFeOw2LylrEATpCtTZt7qz69jJ--SImAEHSqpkDJkoHOBgRvlwDPINXAW4SNcjV_NyCrHBb8eaFYw1fl0rPEEBDrV1B_CFRMWuS1NCdi9sGPOoNkfZyxsFyr3ZUP0Z3cWpusWNZ9mSNtc1_8KDhQe1NYCgqq3kQLyLZglV5IVXKyWRw72bWyuK0-HdWLXmlQEEfJ0PIy8uNSHeC61u9Co6dqxGSiGaTaSoY42LmIkQP4t_jOSQzp-A6QT0Q4nJ39xaHGSyA");'></div>
+</div>
+<div class="flex-1 p-8">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs font-bold uppercase tracking-wider border border-purple-100">
+<span class="material-symbols-outlined text-[16px]">home</span> Home Care
+                        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-bold uppercase tracking-wider border border-green-100">
+<span class="material-symbols-outlined text-[16px]">verified_user</span> 1 Year Warranty
+                        </span>
+</div>
+<h2 class="text-2xl font-bold text-gray-900 mb-6">AirMaster S9 Plus Compact</h2>
+<div class="grid grid-cols-2 gap-x-12 gap-y-4 max-w-lg">
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Noise Level</span>
+<span class="text-gray-800 font-medium">&lt; 26.6 dB (Ultra Quiet)</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Humidification</span>
+<span class="text-gray-800 font-medium">Built-in Heated Humidifier</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Operating Mode</span>
+<span class="text-gray-800 font-medium">CPAP / Auto Bilevel / T</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Connectivity</span>
+<span class="text-gray-800 font-medium">4G Cellular / Wi-Fi</span>
+</div>
+</div>
+</div>
+<div class="w-64 p-8 border-l border-gray-50 bg-gray-50/50 flex flex-col justify-center gap-4">
+<button class="w-full py-3.5 bg-medical-green text-gray-900 font-bold rounded-lg shadow-md hover:brightness-105 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">mail</span>
+                        Send Inquiry
+                    </button>
+<button class="w-full py-3.5 border-2 border-medical-green text-gray-900 font-bold rounded-lg hover:bg-medical-green/5 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">call</span>
+                        Request Call Back
+                    </button>
+<p class="text-[11px] text-gray-400 text-center mt-2 leading-tight">Usually responds in under 1 hour</p>
+</div>
+</div>
+<div class="flex bg-white rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 overflow-hidden transition-all hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]">
+<div class="w-1/4 bg-gray-50 flex items-center justify-center p-8 border-r border-gray-50">
+<div class="w-full aspect-square bg-contain bg-center bg-no-repeat" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDsodJOR6zViZh9jZ_fgZK5t1SMMAkVNqf-hpwRrjmzaZMwA3yW63PWLJM79aJ_LnURDx-KCNbHiVh2NsCPNl1r79e0Rnd8l072WvxUbRiNQERaPa5udV0tbkiUHUszOAcmyt4lrRF28NtpMxT62GSX5THNiGXDq0-HHSZZfHfZMybjZyJ4CMLIOGXYm-iUdKwpkSS8RDmoRUbv9sW__xUCaA-ZUKXXXLeN-hmI2GbII-PbiB94wFn0OcfXF7mV7ASQT99nBgPLaIY");'></div>
+</div>
+<div class="flex-1 p-8">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 bg-red-50 text-red-700 rounded-full text-xs font-bold uppercase tracking-wider border border-red-100">
+<span class="material-symbols-outlined text-[16px]">emergency</span> High Performance
+                        </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-bold uppercase tracking-wider border border-green-100">
+<span class="material-symbols-outlined text-[16px]">verified_user</span> ICU Approved
+                        </span>
+</div>
+<h2 class="text-2xl font-bold text-gray-900 mb-6">Oxymed Ultra 4.0 Pro</h2>
+<div class="grid grid-cols-2 gap-x-12 gap-y-4 max-w-lg">
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Max Flow Rate</span>
+<span class="text-gray-800 font-medium">60 L/min</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Ventilation Mode</span>
+<span class="text-gray-800 font-medium">CPAP, S, T, S/T, APCV</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Display</span>
+<span class="text-gray-800 font-medium">5" HD Color Touchscreen</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-xs text-gray-400 font-bold uppercase tracking-widest">Backup Battery</span>
+<span class="text-gray-800 font-medium">Internal 4 Hour Capacity</span>
+</div>
+</div>
+</div>
+<div class="w-64 p-8 border-l border-gray-50 bg-gray-50/50 flex flex-col justify-center gap-4">
+<button class="w-full py-3.5 bg-medical-green text-gray-900 font-bold rounded-lg shadow-md hover:brightness-105 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">mail</span>
+                        Send Inquiry
+                    </button>
+<button class="w-full py-3.5 border-2 border-medical-green text-gray-900 font-bold rounded-lg hover:bg-medical-green/5 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">call</span>
+                        Request Call Back
+                    </button>
+<p class="text-[11px] text-gray-400 text-center mt-2 leading-tight">Usually responds in under 1 hour</p>
+</div>
+</div>
+</main>
+<footer class="mt-auto bg-gray-900 text-white py-12">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-4 gap-12">
+<div class="col-span-2">
+<div class="flex items-center gap-2 mb-6">
+<div class="size-8 bg-primary rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-black text-sm font-bold">medical_services</span>
+</div>
+<span class="text-xl font-bold">MedCatalog B2B</span>
+</div>
+<p class="text-gray-400 max-w-sm mb-6">Leading B2B marketplace for respiratory and medical grade equipment. Trusted by over 500+ hospitals and clinics nationwide.</p>
+</div>
+<div>
+<h3 class="font-bold mb-6">Solutions</h3>
+<ul class="space-y-4 text-gray-400 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Hospital Procurement</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Clinic Management</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Service &amp; Maintenance</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">EMI Options</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold mb-6">Support</h3>
+<ul class="space-y-4 text-gray-400 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Customer Service</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Track Shipment</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Use</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

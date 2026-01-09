@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Medical Product Detail View</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#12a4e2",
+                        "medical-green": "#22c55e",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101d22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#111618] dark:text-white antialiased min-h-screen">
+<!-- Top Navigation -->
+<nav class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+<div class="flex items-center p-4 justify-between max-w-xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined cursor-pointer">arrow_back_ios</span>
+<h2 class="text-lg font-bold leading-tight tracking-tight">Product Detail</h2>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined cursor-pointer">share</span>
+<span class="material-symbols-outlined cursor-pointer">bookmark</span>
+</div>
+</div>
+</nav>
+<main class="max-w-xl mx-auto bg-white dark:bg-background-dark pb-24">
+<!-- Breadcrumb -->
+<div class="px-4 py-3">
+<p class="text-[#617d89] text-xs font-medium uppercase tracking-wider flex items-center gap-1">
+                Home <span class="material-symbols-outlined text-[10px]">chevron_right</span> 
+                Patient Monitors <span class="material-symbols-outlined text-[10px]">chevron_right</span> 
+                Multiparameter
+            </p>
+</div>
+<!-- Product Image Section -->
+<div class="px-4">
+<div class="w-full bg-gray-50 dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800">
+<div class="aspect-square bg-center bg-no-repeat bg-contain" data-alt="Professional medical multiparameter monitor showing vital signs" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_AppS3wH3Az-GAaceWOem7qwr2USONXcTOQvTh7S0W6KnJYq2guDgNKej02b3xNjWdr2FVJrFqMetq1UkZsTMSynfJ8bwQdTg9ubw0TAEnitG3gP-ahYa0kxzsJYAJwU1LDOk1HQwrR7253vXvuRMrGXGF7Bdl7bmoDzJmB-Csnn3fpS7dzHa35uzSJuEW_itNLjzo1PlSb3FjU99Fz16kAtAZQFlj_TLb_Ylu2RpryLq4umWDQKJ_NsqVvENDsdJivDh4zUu3XY");'>
+</div>
+</div>
+<!-- Thumbnail Gallery -->
+<div class="flex gap-3 mt-4 overflow-x-auto hide-scrollbar pb-2">
+<div class="size-20 shrink-0 rounded-lg border-2 border-primary overflow-hidden bg-white">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover" data-alt="Monitor front view" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBjeU-eQQvnSxobbj_e2QuwaQ3c3hnT-4qhcMJUGjli4Ydf15IN3P5-3V1KxUf_yU1CVcbq-eNR3SM0OGLm32LlmyUQ0HMdwxHJMKyy4tM2SE6jzNrmjuq-xeKu8JE9N5jbC_azVAMMyhlAO7o63ZBiHeXv-svhYzAUbIMPPte0exEQMZbfd2v2cuZwW4hV61ff5evRBbNE3HDejJomWe8OJh2GayTPaWlksa7ObSQXywIY9o2diUMxlcX8GDGZPLVol3oPBOHnKT0");'></div>
+</div>
+<div class="size-20 shrink-0 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden bg-white">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover" data-alt="Monitor side profile" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD1AIGcEbnzL8dTtDJaH9_rtji7JYV5CAQosi_w82daApQoVgrWUf_Qn_g40sHcR3n8KHFhVEmFlQwRwOeuW8E1nbNl60yJu4lIljwKiKqfpfmnWxxXIbmZLeqoZR_v2lKpFxLxEUGPD2fq6E6kfBYUXE7qWcXH0uQ144xfLy4EWRO7ruY2-PRfA2N9ptiRsCuW8NfLkKDurQaFPqa9EeHIpRuHzpsHF5_z6BdIohxPN-3DevNwbCFgLG8XSx_ggrdu_HjnFlPk758");'></div>
+</div>
+<div class="size-20 shrink-0 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden bg-white">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover" data-alt="Monitor accessories" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDVrm2pY6AshRTKLsxgkS6kdMkJeAV9awohlZ4FnVvOQSMwI-D8qaa_OcwhPJhnJLOVnDy83izPGNGHkdGoxSnF-DfChmlnzclSWbXZYSpKEefru3JVkfu1eJL1aRwQmW9hHdBPKV5jj_x8261cptciAGpJSyuxkofuLS3EiZb6IZX_w08PWhzi2HN9yGBFVuKzmrca3rKmyHw7H3lhljEGrLh52Adge2IcvNrkqFmaKorRtcQB41gL7SGzxJCla487Z6P5vGdCLbM");'></div>
+</div>
+<div class="size-20 shrink-0 rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden bg-white">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover" data-alt="Monitor back panel" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuADkY_ufcEV00N4f3x6BaHcZ0Dxw1wyeyn0KKJVTUsQzCL6EfAGuqIzeCFNTVYeslpga7E2vAQehBMG6mg9wWZ5_voeDagPs9QsxmygD0YnDnl18AO2npT5Va7VnRVDXWIFq-D1lydaO7kzwHMFv_zI0ShReHRoEgi8IRMegz1yvBF_fyjD77pDiD9bUyrdaiQzYQx4zmceHjysS01KlEyCIkDmCKXDeUx716d7kT_-1AgxTkk2ROhzYhbuwseSjeWxI2eJ8idgElc");'></div>
+</div>
+</div>
+</div>
+<!-- Product Details -->
+<div class="px-4 mt-6">
+<div class="flex items-center gap-2 mb-2">
+<div class="flex text-yellow-400">
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star_half</span>
+</div>
+<span class="text-sm text-gray-500 font-medium">(4.8/5 • 124 Reviews)</span>
+</div>
+<h1 class="text-2xl font-bold leading-tight mb-2">Advanced Multiparameter Patient Monitor</h1>
+<p class="text-primary font-bold text-xl mb-4">₹45,000 - ₹55,000 <span class="text-sm font-normal text-gray-500">/ Unit</span></p>
+<!-- Highlights -->
+<div class="grid grid-cols-3 gap-3 mb-6">
+<div class="bg-blue-50 dark:bg-primary/10 p-3 rounded-lg flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary mb-1">verified_user</span>
+<span class="text-[10px] font-bold text-gray-700 dark:text-gray-300">2 Year Warranty</span>
+</div>
+<div class="bg-blue-50 dark:bg-primary/10 p-3 rounded-lg flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary mb-1">medical_services</span>
+<span class="text-[10px] font-bold text-gray-700 dark:text-gray-300">Portable Design</span>
+</div>
+<div class="bg-blue-50 dark:bg-primary/10 p-3 rounded-lg flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary mb-1">settings_suggest</span>
+<span class="text-[10px] font-bold text-gray-700 dark:text-gray-300">Fully Automatic</span>
+</div>
+</div>
+<!-- Trust Badges -->
+<div class="flex items-center gap-4 py-4 border-y border-gray-100 dark:border-gray-800 mb-6">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-medical-green text-sm">check_circle</span>
+<span class="text-xs font-semibold">ISO Certified</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-medical-green text-sm">local_shipping</span>
+<span class="text-xs font-semibold">All India Supply</span>
+</div>
+</div>
+<!-- Tab Navigation -->
+<div class="flex border-b border-gray-100 dark:border-gray-800 mb-4 overflow-x-auto hide-scrollbar">
+<button class="px-4 py-2 text-sm font-bold text-primary border-b-2 border-primary whitespace-nowrap">Specifications</button>
+<button class="px-4 py-2 text-sm font-medium text-gray-500 whitespace-nowrap">Trade Info</button>
+<button class="px-4 py-2 text-sm font-medium text-gray-500 whitespace-nowrap">About Product</button>
+</div>
+<!-- Specifications Table -->
+<div class="bg-gray-50 dark:bg-gray-900 rounded-xl overflow-hidden mb-8">
+<div class="divide-y divide-gray-200 dark:divide-gray-800">
+<div class="flex p-4 bg-white dark:bg-gray-800/50">
+<span class="w-1/2 text-sm text-gray-500 font-medium">Display Size</span>
+<span class="w-1/2 text-sm font-semibold">12.1 Inch TFT Color</span>
+</div>
+<div class="flex p-4">
+<span class="w-1/2 text-sm text-gray-500 font-medium">Parameters</span>
+<span class="w-1/2 text-sm font-semibold">ECG, SpO2, NIBP, TEMP, RESP</span>
+</div>
+<div class="flex p-4 bg-white dark:bg-gray-800/50">
+<span class="w-1/2 text-sm text-gray-500 font-medium">Battery Backup</span>
+<span class="w-1/2 text-sm font-semibold">Up to 4 Hours</span>
+</div>
+<div class="flex p-4">
+<span class="w-1/2 text-sm text-gray-500 font-medium">Data Storage</span>
+<span class="w-1/2 text-sm font-semibold">720 Hours Trends</span>
+</div>
+<div class="flex p-4 bg-white dark:bg-gray-800/50">
+<span class="w-1/2 text-sm text-gray-500 font-medium">Weight</span>
+<span class="w-1/2 text-sm font-semibold">3.5 Kg (Net)</span>
+</div>
+<div class="flex p-4">
+<span class="w-1/2 text-sm text-gray-500 font-medium">Alarm System</span>
+<span class="w-1/2 text-sm font-semibold">Triple Visual &amp; Audio</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom CTA Bar -->
+<div class="fixed bottom-0 left-0 right-0 p-4 bg-white dark:bg-background-dark border-t border-gray-100 dark:border-gray-800 shadow-lg">
+<div class="max-w-xl mx-auto flex gap-4">
+<button class="flex-1 bg-medical-green hover:bg-green-600 text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-colors">
+<span class="material-symbols-outlined">request_quote</span>
+                Get a Quote
+            </button>
+<button class="bg-primary/10 text-primary p-4 rounded-xl border border-primary/20">
+<span class="material-symbols-outlined">chat</span>
+</button>
+</div>
+</div>
+</body></html>

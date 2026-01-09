@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Advanced Multiparameter Patient Monitor | Medical Product Detail</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#12a4e2",
+                        "medical-green": "#22c55e",
+                        "medical-green-dark": "#16a34a",
+                        "background-light": "#f8fafc",
+                        "background-dark": "#0f172a",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "2rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .zebra-table div:nth-child(odd) {
+            background-color: #f8fafc;
+        }
+        .dark .zebra-table div:nth-child(odd) {
+            background-color: rgba(30, 41, 59, 0.5);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<header class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-2 cursor-pointer">
+<div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-white">medical_services</span>
+</div>
+<span class="text-xl font-bold tracking-tight">MedTech<span class="text-primary">B2B</span></span>
+</div>
+<nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-400">
+<a class="hover:text-primary transition-colors" href="#">Products</a>
+<a class="hover:text-primary transition-colors" href="#">Manufacturers</a>
+<a class="hover:text-primary transition-colors" href="#">Marketplace</a>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative group">
+<span class="material-symbols-outlined text-slate-400 absolute left-3 top-1/2 -translate-y-1/2">search</span>
+<input class="pl-10 pr-4 py-2 bg-slate-100 dark:bg-slate-800 border-none rounded-full text-sm w-64 focus:ring-2 focus:ring-primary transition-all" placeholder="Search equipment..." type="text"/>
+</div>
+<button class="p-2 text-slate-500 hover:text-primary"><span class="material-symbols-outlined">favorite</span></button>
+<button class="bg-primary text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-sky-500 transition-colors">Login</button>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-6 py-8">
+<nav class="flex items-center gap-2 text-xs font-medium text-slate-500 uppercase tracking-widest mb-8">
+<a class="hover:text-primary" href="#">Home</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<a class="hover:text-primary" href="#">Patient Care</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<a class="hover:text-primary" href="#">Monitors</a>
+<span class="material-symbols-outlined text-sm text-slate-300">chevron_right</span>
+<span class="text-slate-900 dark:text-slate-100">Multiparameter</span>
+</nav>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
+<div class="lg:col-span-7 flex gap-6">
+<div class="hidden md:flex flex-col gap-4">
+<div class="w-20 h-20 rounded-xl border-2 border-primary overflow-hidden cursor-pointer bg-white">
+<div class="w-full h-full bg-center bg-no-repeat bg-contain" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_AppS3wH3Az-GAaceWOem7qwr2USONXcTOQvTh7S0W6KnJYq2guDgNKej02b3xNjWdr2FVJrFqMetq1UkZsTMSynfJ8bwQdTg9ubw0TAEnitG3gP-ahYa0kxzsJYAJwU1LDOk1HQwrR7253vXvuRMrGXGF7Bdl7bmoDzJmB-Csnn3fpS7dzHa35uzSJuEW_itNLjzo1PlSb3FjU99Fz16kAtAZQFlj_TLb_Ylu2RpryLq4umWDQKJ_NsqVvENDsdJivDh4zUu3XY");'></div>
+</div>
+<div class="w-20 h-20 rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden cursor-pointer hover:border-primary transition-colors bg-white">
+<div class="w-full h-full bg-center bg-no-repeat bg-contain" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBjeU-eQQvnSxobbj_e2QuwaQ3c3hnT-4qhcMJUGjli4Ydf15IN3P5-3V1KxUf_yU1CVcbq-eNR3SM0OGLm32LlmyUQ0HMdwxHJMKyy4tM2SE6jzNrmjuq-xeKu8JE9N5jbC_azVAMMyhlAO7o63ZBiHeXv-svhYzAUbIMPPte0exEQMZbfd2v2cuZwW4hV61ff5evRBbNE3HDejJomWe8OJh2GayTPaWlksa7ObSQXywIY9o2diUMxlcX8GDGZPLVol3oPBOHnKT0");'></div>
+</div>
+<div class="w-20 h-20 rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden cursor-pointer hover:border-primary transition-colors bg-white">
+<div class="w-full h-full bg-center bg-no-repeat bg-contain" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD1AIGcEbnzL8dTtDJaH9_rtji7JYV5CAQosi_w82daApQoVgrWUf_Qn_g40sHcR3n8KHFhVEmFlQwRwOeuW8E1nbNl60yJu4lIljwKiKqfpfmnWxxXIbmZLeqoZR_v2lKpFxLxEUGPD2fq6E6kfBYUXE7qWcXH0uQ144xfLy4EWRO7ruY2-PRfA2N9ptiRsCuW8NfLkKDurQaFPqa9EeHIpRuHzpsHF5_z6BdIohxPN-3DevNwbCFgLG8XSx_ggrdu_HjnFlPk758");'></div>
+</div>
+<div class="w-20 h-20 rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden cursor-pointer hover:border-primary transition-colors bg-white">
+<div class="w-full h-full bg-center bg-no-repeat bg-contain" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDVrm2pY6AshRTKLsxgkS6kdMkJeAV9awohlZ4FnVvOQSMwI-D8qaa_OcwhPJhnJLOVnDy83izPGNGHkdGoxSnF-DfChmlnzclSWbXZYSpKEefru3JVkfu1eJL1aRwQmW9hHdBPKV5jj_x8261cptciAGpJSyuxkofuLS3EiZb6IZX_w08PWhzi2HN9yGBFVuKzmrca3rKmyHw7H3lhljEGrLh52Adge2IcvNrkqFmaKorRtcQB41gL7SGzxJCla487Z6P5vGdCLbM");'></div>
+</div>
+</div>
+<div class="flex-1 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 overflow-hidden relative group">
+<div class="aspect-[4/3] bg-center bg-no-repeat bg-contain transition-transform duration-500 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_AppS3wH3Az-GAaceWOem7qwr2USONXcTOQvTh7S0W6KnJYq2guDgNKej02b3xNjWdr2FVJrFqMetq1UkZsTMSynfJ8bwQdTg9ubw0TAEnitG3gP-ahYa0kxzsJYAJwU1LDOk1HQwrR7253vXvuRMrGXGF7Bdl7bmoDzJmB-Csnn3fpS7dzHa35uzSJuEW_itNLjzo1PlSb3FjU99Fz16kAtAZQFlj_TLb_Ylu2RpryLq4umWDQKJ_NsqVvENDsdJivDh4zUu3XY");'></div>
+<button class="absolute top-4 right-4 p-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm">
+<span class="material-symbols-outlined text-slate-700">zoom_in</span>
+</button>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col">
+<div class="flex items-center gap-2 mb-4">
+<div class="flex text-amber-400">
+<span class="material-symbols-outlined text-lg fill-current">star</span>
+<span class="material-symbols-outlined text-lg fill-current">star</span>
+<span class="material-symbols-outlined text-lg fill-current">star</span>
+<span class="material-symbols-outlined text-lg fill-current">star</span>
+<span class="material-symbols-outlined text-lg">star_half</span>
+</div>
+<span class="text-sm font-semibold text-slate-500">4.8 (124 Reviews)</span>
+</div>
+<h1 class="text-4xl font-extrabold leading-tight tracking-tight mb-4">Advanced Multiparameter Patient Monitor</h1>
+<div class="flex items-baseline gap-2 mb-8">
+<span class="text-3xl font-bold text-primary">₹45,000 - ₹55,000</span>
+<span class="text-slate-500 font-medium">/ Unit (Excl. Tax)</span>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 mb-8">
+<button class="flex-1 bg-medical-green hover:bg-medical-green-dark text-white font-bold py-5 px-8 rounded-xl flex items-center justify-center gap-3 shadow-lg shadow-green-500/20 transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined">request_quote</span>
+                    GET A QUOTE
+                </button>
+<button class="flex-1 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-primary hover:text-primary font-bold py-5 px-8 rounded-xl flex items-center justify-center gap-3 transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined">mail</span>
+                    SEND INQUIRY
+                </button>
+</div>
+<div class="grid grid-cols-3 gap-4 mb-8">
+<div class="border border-slate-100 dark:border-slate-800 rounded-xl p-4 flex flex-col items-center text-center bg-slate-50/50 dark:bg-slate-800/30">
+<span class="material-symbols-outlined text-primary mb-2 text-3xl">verified_user</span>
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400">2 Year Warranty</span>
+</div>
+<div class="border border-slate-100 dark:border-slate-800 rounded-xl p-4 flex flex-col items-center text-center bg-slate-50/50 dark:bg-slate-800/30">
+<span class="material-symbols-outlined text-primary mb-2 text-3xl">medical_services</span>
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400">Portable Design</span>
+</div>
+<div class="border border-slate-100 dark:border-slate-800 rounded-xl p-4 flex flex-col items-center text-center bg-slate-50/50 dark:bg-slate-800/30">
+<span class="material-symbols-outlined text-primary mb-2 text-3xl">verified</span>
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400">ISO Certified</span>
+</div>
+</div>
+<div class="flex items-center gap-6 pt-6 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-medical-green text-sm">local_shipping</span>
+<span class="text-xs font-bold text-slate-500">All India Supply</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-medical-green text-sm">support_agent</span>
+<span class="text-xs font-bold text-slate-500">24/7 Tech Support</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-medical-green text-sm">payments</span>
+<span class="text-xs font-bold text-slate-500">Flexible Payment</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12">
+<div class="flex items-center border-b border-slate-200 dark:border-slate-800 mb-8 overflow-x-auto hide-scrollbar">
+<button class="px-8 py-4 text-sm font-bold text-primary border-b-2 border-primary whitespace-nowrap">Specifications</button>
+<button class="px-8 py-4 text-sm font-semibold text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors whitespace-nowrap">Trade Information</button>
+<button class="px-8 py-4 text-sm font-semibold text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors whitespace-nowrap">About Product</button>
+<button class="px-8 py-4 text-sm font-semibold text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors whitespace-nowrap">Reviews</button>
+</div>
+<div class="max-w-4xl">
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden shadow-sm">
+<div class="zebra-table">
+<div class="grid grid-cols-1 md:grid-cols-2 p-5">
+<span class="text-sm text-slate-500 font-medium">Display Size</span>
+<span class="text-sm font-bold text-slate-900 dark:text-slate-100">12.1 Inch TFT Color LCD</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 p-5">
+<span class="text-sm text-slate-500 font-medium">Parameters</span>
+<span class="text-sm font-bold text-slate-900 dark:text-slate-100">ECG, SpO2, NIBP, TEMP, RESP, PR</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 p-5">
+<span class="text-sm text-slate-500 font-medium">Battery Backup</span>
+<span class="text-sm font-bold text-slate-900 dark:text-slate-100">Lithium-ion, Up to 4 Hours</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 p-5">
+<span class="text-sm text-slate-500 font-medium">Data Storage</span>
+<span class="text-sm font-bold text-slate-900 dark:text-slate-100">720 Hours Trends, 1000 NIBP Sets</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 p-5">
+<span class="text-sm text-slate-500 font-medium">Weight</span>
+<span class="text-sm font-bold text-slate-900 dark:text-slate-100">3.5 Kg (Net Weight)</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 p-5">
+<span class="text-sm text-slate-500 font-medium">Alarm System</span>
+<span class="text-sm font-bold text-slate-900 dark:text-slate-100">Triple Visual &amp; Audio (Adjustable)</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 p-5">
+<span class="text-sm text-slate-500 font-medium">Networking</span>
+<span class="text-sm font-bold text-slate-900 dark:text-slate-100">Built-in Central Monitoring Interface</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-slate-900 text-slate-400 py-16 mt-20">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-2 mb-6">
+<div class="w-8 h-8 bg-primary rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-sm">medical_services</span>
+</div>
+<span class="text-white text-xl font-bold">MedTechB2B</span>
+</div>
+<p class="max-w-md text-sm leading-relaxed mb-6">Global marketplace for certified medical equipment and hospital supplies. Connecting healthcare providers with reliable manufacturers since 2012.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" href="#"><span class="material-symbols-outlined text-white text-xl">share</span></a>
+<a class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" href="#"><span class="material-symbols-outlined text-white text-xl">call</span></a>
+</div>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Support</h4>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary" href="#">Help Center</a></li>
+<li><a class="hover:text-primary" href="#">Bulk Orders</a></li>
+<li><a class="hover:text-primary" href="#">Return Policy</a></li>
+<li><a class="hover:text-primary" href="#">Shipping Info</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Legal</h4>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary" href="#">Terms of Use</a></li>
+<li><a class="hover:text-primary" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-primary" href="#">ISO Certifications</a></li>
+<li><a class="hover:text-primary" href="#">Compliance</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-6 pt-12 mt-12 border-t border-slate-800 text-xs flex flex-col md:row justify-between items-center gap-4">
+<p>© 2024 MedTechB2B Solutions. All Rights Reserved.</p>
+<div class="flex items-center gap-6">
+<img alt="PayPal" class="h-4 opacity-50 grayscale hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpf7u0baBsM3oYMq2Fbc4woyzkG7TEi0jJvSbNM78dvTfwl22evBp_O1obJzC8BJwW3ixlRSIW2tJtFcy1OOzzbxh58Lfg5y1ERDnLOmFLfNhFrI_VHRMVuFfFz1Ke3WIA0DT8sj7ATMw1ow0y32V4us36SjdlZS8GN-13IeboXH9nAkfpRnChzzQLLotJbTT1ki0C2sYjYQ6hcRoGu2X-_XERejNdDthHdaLK0EyJYJHfSGp31f91fVBPJn0ExtdZ9neEgITc72E"/>
+<img alt="Visa" class="h-3 opacity-50 grayscale hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrih3L9unJfbZ-RUH9vmETls-YN4bWEWPcFA_tHYTO8hNY7f81N_TCArPBIpr90XVUPtEnN4hi1V1WVwB0L2ull5-yGmtZMgDjNO1gUBt3qCQiDBQykBcJmp31jmYp2QcLJ05x-zm0PTHp60m-4DpfNJ387CG67eLk1n8-lD2wHNn4hcHDyJEVgnZNlBAmMA0X95Y6FW4wqErf17UJOh5Fu8UZVXpp3CldgmyG89UQWzP51U1CU9oGXZzERdA48E4o8_M4IvNeprg"/>
+<img alt="Mastercard" class="h-4 opacity-50 grayscale hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjkxantiM-6r2vb04RuNuCvINIbdm2FuP4VnZ7LOoBbh48eiCz2h3DlDSSyXANa2vOadV1y1RPcQtDFT34V28r0iPK5032kukCpDZccCoWpUmcU2p5ZU_PkedTiZa9aYdZBfTEKD8VQQ9ryGkbibrPBBL3FKdbQtiyMWUMs9FiugdPNVJSctLO-tFN9G2u6hnGms20wk0PGnbeAQ7Fohd0dRwViuWvT87iYgwgthixDcN5tqNGavzH_sbvE-G_lVYouGPM6bBSx-0"/>
+</div>
+</div>
+</footer>
+
+</body></html>
