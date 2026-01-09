@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Edisonn Life Science - Medical Equipment Portfolio</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-50 antialiased overflow-x-hidden">
+<!-- Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-[#101922]/90 backdrop-blur-md">
+<div class="px-4 lg:px-10 py-3 flex items-center justify-between">
+<div class="flex items-center gap-3 text-slate-900 dark:text-white">
+<div class="flex items-center justify-center size-10 rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined" style="font-size: 28px;">health_and_safety</span>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-tight">Edisonn Life Science</h2>
+</div>
+<div class="hidden lg:flex flex-1 justify-end gap-8 items-center">
+<nav class="flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#home">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#about">About Us</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#products">Products</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#certifications">Certifications</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<button class="flex cursor-pointer items-center justify-center rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold shadow-md hover:bg-blue-600 transition-colors">
+                    Request Quote
+                </button>
+</div>
+<div class="lg:hidden">
+<button class="p-2 text-slate-600 dark:text-slate-300">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative py-12 lg:py-20 px-4 lg:px-40 flex justify-center bg-white dark:bg-slate-900" id="home">
+<div class="flex flex-col gap-10 max-w-[1200px] w-full lg:flex-row items-center">
+<div class="flex flex-col gap-6 flex-1 text-center lg:text-left">
+<div class="inline-flex self-center lg:self-start items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-primary dark:border-slate-700 dark:bg-slate-800">
+<span class="material-symbols-outlined text-[16px]">new_releases</span>
+                        New Generation Oxygen Concentrators Available
+                    </div>
+<h1 class="text-4xl lg:text-6xl font-black leading-tight tracking-tight text-slate-900 dark:text-white">
+                        Advanced Medical Solutions for a <span class="text-primary">Healthier Tomorrow</span>
+</h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 max-w-xl mx-auto lg:mx-0">
+                        Leading the way in respiratory care, patient monitoring, and hospital essentials. We provide precision equipment for clinics, hospitals, and home care settings worldwide.
+                    </p>
+<div class="flex flex-wrap justify-center lg:justify-start gap-4">
+<button class="flex items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold shadow-lg shadow-blue-500/20 hover:bg-blue-600 transition-all">
+                            Explore Products
+                        </button>
+<button class="flex items-center justify-center rounded-lg h-12 px-6 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white text-base font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-all border border-slate-200 dark:border-slate-700">
+                            Contact Sales
+                        </button>
+</div>
+<div class="flex items-center justify-center lg:justify-start gap-6 pt-4 text-sm text-slate-500 dark:text-slate-400 font-medium">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-green-500" style="font-size: 20px;">check_circle</span>
+                            ISO Certified
+                        </div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-green-500" style="font-size: 20px;">check_circle</span>
+                            Global Shipping
+                        </div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-green-500" style="font-size: 20px;">check_circle</span>
+                            24/7 Support
+                        </div>
+</div>
+</div>
+<div class="flex-1 w-full relative group">
+<div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden shadow-2xl bg-slate-100 dark:bg-slate-800" data-alt="Modern medical equipment in a clean hospital room environment" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDhL8f0CcbTHHicXG4YZSH3ggxvbNFuR1dJSW6_j8H6cUmTxnQcwZ2TNg4j5qFHS3yOTqYoN3X5l1yfD85XBr_d8Ab-tWyjGMcLwIkj48nYZqcX1MFwTExvDvsayJA6Ov5eylWIm6QD_t0Y_7gh_xi96b7i-9DaM0Hh7oC3qYFKc9JI20tdxqod4W0B4zIm7pf2spqYzdnznbO-B5VsxNrvoFUd1eUXMSJc0oZP5ZOdS1Dw4hUx1OjF24sq5ZO-CCYl_qEoDweYorfT"); background-size: cover; background-position: center;'>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-16 px-4 lg:px-40 bg-background-light dark:bg-background-dark flex justify-center" id="about">
+<div class="max-w-[1200px] w-full grid lg:grid-cols-2 gap-12 items-center">
+<div class="order-2 lg:order-1 relative rounded-xl overflow-hidden h-full min-h-[400px]" data-alt="Two medical researchers looking at test results in a laboratory" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8pAj_thJdIhx0-kzNhTuLjuyR567DGeQl3IrgsvtvQWvxJtBv_jr5sMRo6MUAeHFlV57k2Tw1lxB_aPM-VGRvPBkeTzJb2jP8HlTzrkmmavLOJIncfFeC-iUgLOD6cTf4r4xOjX7tsvOvrWIyA1b53yr9cqjeBy3MD2ObRX40HnhYKQy4mMg_mHWZKeoUAuRFDqGRwiIgwzxvDF8CCCPIv4wsYqpaTLcguy2XtXjQ5OA978cK7segGCMws4qPfZr5jJQoVAc5GdH-"); background-size: cover; background-position: center;'>
+<div class="absolute inset-0 bg-primary/10"></div>
+</div>
+<div class="order-1 lg:order-2 flex flex-col gap-6">
+<div>
+<span class="text-primary font-bold uppercase tracking-wider text-sm">About Edisonn Life Science</span>
+<h2 class="text-3xl lg:text-4xl font-bold text-slate-900 dark:text-white mt-2">Innovating for Critical Patient Care</h2>
+</div>
+<p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
+                        Established with a mission to improve global healthcare standards, Edisonn Life Science is dedicated to manufacturing and supplying top-tier medical devices. We bridge the gap between advanced technology and patient needs.
+                    </p>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                        Our focus on reliability ensures that healthcare providers can trust our equipment in critical moments. From respiratory solutions to state-of-the-art monitoring systems, every product is rigorously tested to meet international safety standards.
+                    </p>
+<div class="pt-4">
+<a class="inline-flex items-center text-primary font-bold hover:underline gap-1" href="#">
+                            Read Our Story <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us Features -->
+<section class="py-16 px-4 lg:px-40 bg-white dark:bg-slate-900 flex justify-center">
+<div class="max-w-[1200px] w-full flex flex-col gap-12">
+<div class="text-center max-w-2xl mx-auto">
+<h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-4">Why Healthcare Providers Choose Us</h2>
+<p class="text-slate-600 dark:text-slate-400">We don't just supply equipment; we provide peace of mind through quality, compliance, and dedicated support.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Feature 1 -->
+<div class="group flex flex-col gap-4 p-6 rounded-xl border border-slate-100 bg-slate-50 dark:bg-slate-800 dark:border-slate-700 hover:shadow-xl hover:border-primary/20 transition-all duration-300">
+<div class="size-12 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-primary flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">ecg_heart</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Clinical Precision</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                Our devices are calibrated for the highest accuracy, essential for critical care environments where every reading matters.
+                            </p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="group flex flex-col gap-4 p-6 rounded-xl border border-slate-100 bg-slate-50 dark:bg-slate-800 dark:border-slate-700 hover:shadow-xl hover:border-primary/20 transition-all duration-300">
+<div class="size-12 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-primary flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">verified_user</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Global Standards</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                Manufacturing processes certified by ISO and products meeting CE and FDA regulations for international compliance.
+                            </p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="group flex flex-col gap-4 p-6 rounded-xl border border-slate-100 bg-slate-50 dark:bg-slate-800 dark:border-slate-700 hover:shadow-xl hover:border-primary/20 transition-all duration-300">
+<div class="size-12 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-primary flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">support_agent</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">24/7 Expert Support</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                A dedicated team of biomedical engineers and support staff available around the clock to assist our partners.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Products Section -->
+<section class="py-20 px-4 lg:px-40 bg-background-light dark:bg-background-dark flex justify-center" id="products">
+<div class="max-w-[1200px] w-full flex flex-col gap-10">
+<div class="flex flex-col md:flex-row justify-between items-end gap-4 border-b border-slate-200 dark:border-slate-700 pb-6">
+<div class="max-w-xl">
+<span class="text-primary font-bold uppercase tracking-wider text-sm">Our Catalog</span>
+<h2 class="text-3xl font-bold text-slate-900 dark:text-white mt-2">Specialized Medical Equipment</h2>
+<p class="text-slate-600 dark:text-slate-400 mt-2">Browse our range of high-performance medical devices designed for longevity and ease of use.</p>
+</div>
+<a class="hidden md:flex items-center gap-2 text-primary font-semibold hover:text-blue-700 transition-colors" href="#">
+                        View Full Catalog <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Product Card 1 -->
+<div class="flex flex-col bg-white dark:bg-slate-800 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow group">
+<div class="h-48 bg-slate-100 dark:bg-slate-700 relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="White medical oxygen concentrator device on a clean background" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCojba9Y00gU9FBUUWF251Cf2GZC3jbw7kMUIKdeoTxh2-4U44xnngUgNPL93xBeTLHEmNDSh_o1zZA_mIZU_7Evzgnf2yf4fHGyeqW4b-Id2U2zpTNpMzAJi11WLp5LlVJeeM2pUN6x6GFyIqJ1O3avgmi0Z3lOxzN-xtF3X-bnuWlyNnAJM4Vo5BIecYT_IEYgSSNW_mzJ79aj42UjN0E6jvLxOE2btZrAGF8nA8byhV_AoPj50pxh7Dq2JuVO_zDQa8QWiXjEx7E");'></div>
+</div>
+<div class="p-5 flex flex-col flex-1 gap-3">
+<div class="text-xs font-semibold text-blue-500 uppercase tracking-wide">Respiratory</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white">Oxygen Concentrators</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">High-purity oxygen delivery systems for home and clinical use. Quiet operation and energy efficient.</p>
+<a class="mt-auto pt-3 text-sm font-semibold text-slate-900 dark:text-white group-hover:text-primary transition-colors flex items-center gap-1" href="#">
+                                Learn more <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="flex flex-col bg-white dark:bg-slate-800 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow group">
+<div class="h-48 bg-slate-100 dark:bg-slate-700 relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Digital hospital patient monitor displaying vital signs" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDNGb1K1sQrHcDCoNp_LnzgQbPe-u7Nn--eBDhN5oSBzvhi4Hr_8pWzB5SBKC6pyN07PcfZPd6l6x4bGi-G7PVX__iskKTxr0GuOgWAFb9gKFVYZCvBAh--V5QFHo9GEHAZQ4sKSHpjcZhN_OHeSqCu-Ae-QaaqjgMHILHbayzpwwdEDQKCwM1ndQQeuv80v_xhCyNhnJXIzgTxB1Olf7pzGc8zk1DwTqLkdWw4CXJJRRQBL2DSxJ2Swj15YjMnVlbelctInUK4zem8");'></div>
+</div>
+<div class="p-5 flex flex-col flex-1 gap-3">
+<div class="text-xs font-semibold text-blue-500 uppercase tracking-wide">Monitoring</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white">Patient Monitors</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">Multi-parameter monitors for ICU and general wards. Real-time tracking of ECG, SpO2, and NIBP.</p>
+<a class="mt-auto pt-3 text-sm font-semibold text-slate-900 dark:text-white group-hover:text-primary transition-colors flex items-center gap-1" href="#">
+                                Learn more <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="flex flex-col bg-white dark:bg-slate-800 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow group">
+<div class="h-48 bg-slate-100 dark:bg-slate-700 relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="CPAP machine with mask for sleep apnea treatment" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAwmnbKPHIwgk6tvNgvVi8Mp0OMGJG7I_B4_SpwLQQo6bV33gdHfJzYTkEP6z6xH3JJ42dd3C99XwlqPjsQcPW8jhsGp67ngRdHetFahoNX3dnf-ZOeas-LchdeubTT78eGMamVxCj5UvbQg03qYTdv-SgExZc742uQbhCY87heNP_lvaE-MejI5z2eIr_CTHsl1XgsZs3mMG8VEIcs_7ah1HNKb4RUkRe3O_6kP_SlqFHbVkRlnSqlFIFAbQavkQ_6AZybkcfBvvPP");'></div>
+</div>
+<div class="p-5 flex flex-col flex-1 gap-3">
+<div class="text-xs font-semibold text-blue-500 uppercase tracking-wide">Sleep Therapy</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white">CPAP Machines</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">Advanced sleep therapy devices offering comfort and data connectivity for effective treatment.</p>
+<a class="mt-auto pt-3 text-sm font-semibold text-slate-900 dark:text-white group-hover:text-primary transition-colors flex items-center gap-1" href="#">
+                                Learn more <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="flex flex-col bg-white dark:bg-slate-800 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow group">
+<div class="h-48 bg-slate-100 dark:bg-slate-700 relative overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Collection of sterile medical disposables and surgical tools" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC5RIWIlsK-jaNDPcrPwilraOJ_KCasEExmTZIystKcKKCl2TmeSmte7q1BDBPgXlhPYb5V3uxGLl19TJEvkfJD_dlQ59LPf1NPuu4ZZq7iEaDc9dybL8lm5_oO7Gg-niIPL6i8P8K-Om84s1xb_HcDL8og_PzKTxYazJijbOAnwlqxOK6uGQgUlax-4S2SNEwUebWl5OwzuM1tMCnjAeeZKgP6y7jErLlZmqrmXXIE5JqIG4G8GceRERQMDkGUMCX7QZ_IvaOg9byE");'></div>
+</div>
+<div class="p-5 flex flex-col flex-1 gap-3">
+<div class="text-xs font-semibold text-blue-500 uppercase tracking-wide">Consumables</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white">Hospital Disposables</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">High-quality syringes, gloves, IV sets, and sterile consumables for daily medical operations.</p>
+<a class="mt-auto pt-3 text-sm font-semibold text-slate-900 dark:text-white group-hover:text-primary transition-colors flex items-center gap-1" href="#">
+                                Learn more <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<div class="md:hidden flex justify-center pt-4">
+<a class="flex items-center gap-2 text-primary font-semibold hover:text-blue-700 transition-colors" href="#">
+                        View Full Catalog <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Certifications -->
+<section class="py-16 bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800" id="certifications">
+<div class="container mx-auto px-4 text-center">
+<p class="text-slate-500 dark:text-slate-400 font-medium mb-8 uppercase tracking-widest text-xs">Trusted &amp; Certified By</p>
+<div class="flex flex-wrap justify-center gap-10 md:gap-20 items-center opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+<!-- Placeholder for ISO -->
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-4xl text-slate-800 dark:text-slate-200">verified</span>
+<span class="text-xl font-bold text-slate-800 dark:text-slate-200">ISO 13485</span>
+</div>
+<!-- Placeholder for CE -->
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-4xl text-slate-800 dark:text-slate-200">workspace_premium</span>
+<span class="text-xl font-bold text-slate-800 dark:text-slate-200">CE Certified</span>
+</div>
+<!-- Placeholder for FDA -->
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-4xl text-slate-800 dark:text-slate-200">approval</span>
+<span class="text-xl font-bold text-slate-800 dark:text-slate-200">FDA Approved</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-20 px-4 lg:px-40 bg-background-light dark:bg-background-dark flex justify-center" id="contact">
+<div class="max-w-[1200px] w-full grid lg:grid-cols-2 gap-10 lg:gap-20">
+<!-- Contact Info -->
+<div class="flex flex-col gap-8">
+<div>
+<span class="text-primary font-bold uppercase tracking-wider text-sm">Get in Touch</span>
+<h2 class="text-3xl font-bold text-slate-900 dark:text-white mt-2">Partner with Edisonn</h2>
+<p class="text-slate-600 dark:text-slate-400 mt-4">
+                            Whether you need a quote for bulk orders or have technical questions about our devices, our team is ready to assist you.
+                        </p>
+</div>
+<div class="flex flex-col gap-6">
+<div class="flex gap-4">
+<div class="size-12 rounded-lg bg-white dark:bg-slate-800 shadow-sm flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white">Headquarters</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mt-1">123 Health Innovation Park,<br/>Science Blvd, Tech City, CA 94043</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="size-12 rounded-lg bg-white dark:bg-slate-800 shadow-sm flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white">Phone</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mt-1">+1 (800) 123-4567<br/>Mon-Fri from 8am to 5pm</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="size-12 rounded-lg bg-white dark:bg-slate-800 shadow-sm flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white">Email</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm mt-1">contact@edisonn-life.com<br/>sales@edisonn-life.com</p>
+</div>
+</div>
+</div>
+<!-- Map Placeholder -->
+<div class="w-full h-48 bg-slate-200 dark:bg-slate-700 rounded-xl mt-4 relative overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center opacity-80" data-alt="Map view of city location" data-location="San Francisco Bay Area" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDeVWp5NGUg8Nd4XKtkqk_9bJ0qM4J8w9MpZ7FQ3FysmxGw9Ws3-6BR1z4HsP0f-DtsSZ6QweDuiEc2mVb4941xxvelaTzcO5uOuYQu0QtpVrkkh5GKm6Vnc1sHkEMXAEfdWZveL_ZcDnOw6HR7V_0OONYOyl8_icn7eTRxhFvN9axDIPtYa2mSJJxoLpk5kXHbMbbB9cG0810rjcKw5Yu6D0vbVnVg9EVSDh4AzrrO6UccSqdOYhR9e4bzQ34YhFkVk4eQM9pVE0mG");'></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<button class="bg-white dark:bg-slate-800 text-slate-900 dark:text-white px-4 py-2 rounded-lg text-sm font-bold shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">map</span> View on Map
+                            </button>
+</div>
+</div>
+</div>
+<!-- Contact Form -->
+<div class="bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-700">
+<form class="flex flex-col gap-5">
+<div class="grid grid-cols-2 gap-5">
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-900 dark:text-white" for="first-name">First Name</label>
+<input class="h-11 px-4 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50" id="first-name" placeholder="John" type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-900 dark:text-white" for="last-name">Last Name</label>
+<input class="h-11 px-4 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50" id="last-name" placeholder="Doe" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-900 dark:text-white" for="email">Email Address</label>
+<input class="h-11 px-4 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50" id="email" placeholder="john@company.com" type="email"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-900 dark:text-white" for="interest">I'm interested in</label>
+<select class="h-11 px-4 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50" id="interest">
+<option>Oxygen Concentrators</option>
+<option>Patient Monitors</option>
+<option>Hospital Disposables</option>
+<option>Partnership Inquiry</option>
+<option>Other</option>
+</select>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-900 dark:text-white" for="message">Message</label>
+<textarea class="p-4 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none" id="message" placeholder="Tell us about your requirements..." rows="4"></textarea>
+</div>
+<button class="mt-2 h-12 w-full bg-primary hover:bg-blue-600 text-white font-bold rounded-lg transition-colors shadow-lg" type="button">
+                            Send Message
+                        </button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 pt-16 pb-8 px-4 lg:px-40 flex justify-center">
+<div class="max-w-[1200px] w-full flex flex-col gap-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+<div class="md:col-span-1 flex flex-col gap-4">
+<div class="flex items-center gap-2 text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-primary">health_and_safety</span>
+<h3 class="text-lg font-bold">Edisonn Life Science</h3>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
+                        Dedicated to advancing global health through innovative medical technology and reliable supply chains.
+                    </p>
+<div class="flex gap-3 mt-2">
+<a class="size-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-colors" href="#">
+<span class="font-bold text-xs">Li</span>
+</a>
+<a class="size-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-colors" href="#">
+<span class="font-bold text-xs">Tw</span>
+</a>
+<a class="size-8 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-colors" href="#">
+<span class="font-bold text-xs">Fb</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold text-slate-900 dark:text-white">Products</h4>
+<ul class="flex flex-col gap-2 text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Respiratory Care</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Patient Monitoring</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Surgical Disposables</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Home Healthcare</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold text-slate-900 dark:text-white">Company</h4>
+<ul class="flex flex-col gap-2 text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Certifications</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Careers</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">News &amp; Events</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-bold text-slate-900 dark:text-white">Newsletter</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400">Subscribe for product updates and industry news.</p>
+<div class="flex gap-2">
+<input class="flex-1 h-10 px-3 rounded text-sm border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:ring-1 focus:ring-primary" placeholder="Email address" type="email"/>
+<button class="h-10 px-4 bg-slate-900 dark:bg-slate-700 text-white rounded text-sm font-bold hover:bg-primary transition-colors">Go</button>
+</div>
+</div>
+</div>
+<div class="border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+<p>© 2023 Edisonn Life Science. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="hover:text-slate-600 dark:hover:text-slate-300" href="#">Privacy Policy</a>
+<a class="hover:text-slate-600 dark:hover:text-slate-300" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
